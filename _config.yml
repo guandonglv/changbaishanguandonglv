@@ -1,0 +1,11 @@
+title: 长白山保护开发区关东驴国际旅行社有限公司
+name: 长白山保护开发区关东驴国际旅行社有限公司
+description: 长白山专业入境游旅行社，提供针对境外游客的长白山深度旅游服务
+url: "https://changbaishan-guandonglv.github.io"
+baseurl: ""
+theme: minimal-mistakes
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
