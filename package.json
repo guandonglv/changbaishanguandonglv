@@ -1,0 +1,12 @@
+{
+  "name": "changbaishan-guandonglv-travel",
+  "version": "1.0.0",
+  "description": "Professional English travel website for Changbai Mountain Guandonglv International Travel",
+  "scripts": {
+    "dev": "python -m http.server 55734",
+    "start": "python -m http.server 55734"
+  },
+  "keywords": ["travel", "changbaishan", "tourism", "website"],
+  "author": "Changbai Mountain Guandonglv International Travel",
+  "license": "MIT"
+}
