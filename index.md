@@ -49,7 +49,7 @@ excerpt: Licensed & Insured Inbound Tours to Changbai Mountain
       <!-- 1-Day Tour -->
       <div class="tour-card">
         <div class="tour-image">
-          <img src="/assets/images/tianchi-1day.jpg" alt="Changbai Mountain 1-Day Tour" style="width:100%; height:100%; object-fit:cover;">
+          <img src="/assets/images/tour-1day.jpg" alt="Changbai Mountain 1-Day Tour" style="width:100%; height:100%; object-fit:cover;">
         </div>
         <div class="tour-content">
           <h3 class="tour-title">Changbai Mountain 1-Day Tour</h3>
@@ -70,7 +70,7 @@ excerpt: Licensed & Insured Inbound Tours to Changbai Mountain
       <!-- 2-Day Tour -->
       <div class="tour-card">
         <div class="tour-image">
-          <img src="/assets/images/tianchi-2day.jpg" alt="Changbai Mountain 2-Day Tour" style="width:100%; height:100%; object-fit:cover;">
+          <img src="/assets/images/tour-2day.jpg" alt="Changbai Mountain 2-Day Tour" style="width:100%; height:100%; object-fit:cover;">
         </div>
         <div class="tour-content">
           <h3 class="tour-title">Changbai Mountain 2-Day Tour</h3>
@@ -91,7 +91,7 @@ excerpt: Licensed & Insured Inbound Tours to Changbai Mountain
       <!-- Private Car Service -->
       <div class="tour-card">
         <div class="tour-image">
-          <img src="/assets/images/private-car.jpg" alt="Private Car Service" style="width:100%; height:100%; object-fit:cover;">
+          <img src="/assets/images/private-car-1.jpg" alt="Private Car Service" style="width:100%; height:100%; object-fit:cover;">
         </div>
         <div class="tour-content">
           <h3 class="tour-title">Private Car & Custom Tour</h3>
