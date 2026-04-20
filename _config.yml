@@ -29,3 +29,4 @@ sass:
   quiet_deps: true
   verbose: false
   sourcemap: never
+  deprecation_warnings: false
