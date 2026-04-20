@@ -20,9 +20,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-remote-theme
-
-remote_theme: mmistakes/minimal-mistakes
 
 # Site navigation
 navigation:
