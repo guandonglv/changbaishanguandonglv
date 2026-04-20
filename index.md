@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: Changbai Mountain Guandonglv International Travel
 excerpt: Licensed & Insured Inbound Tours to Changbai Mountain
 header:
