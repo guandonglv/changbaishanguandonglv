@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "echo 'No build required for static HTML site'",
+  "framework": null,
+  "functions": {
+    "*.html": {
+      "runtime": "@vercel/static@latest"
+    }
+  }
+}
