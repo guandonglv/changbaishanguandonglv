@@ -19,6 +19,26 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
+
+# Site navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Tours
+    url: #tours
+  - title: Contact
+    url: #contact
+
+# Footer settings
+footer:
+  text: >
+    © 2026 Changbai Mountain Guandonglv International Travel. All rights reserved.
+  links:
+    - title: Privacy Policy
+      url: /privacy/
+    - title: Terms of Service
+      url: /terms/
 
 # Sass configuration
 sass:

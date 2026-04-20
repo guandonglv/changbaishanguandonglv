@@ -1,111 +1,129 @@
 ---
-layout: page
+layout: home
 title: Changbai Mountain Guandonglv International Travel
 excerpt: Licensed & Insured Inbound Tours to Changbai Mountain
+header:
+  overlay_image: /assets/images/hero-tianchi-banner.jpg
+  overlay_filter: 0.5
+  caption: "Tianchi - The Pearl of Changbai Mountain"
+  actions:
+    - label: "Explore Tours"
+      url: "#tours"
+    - label: "Contact Us"
+      url: "#contact"
 ---
 
-<!-- Hero Banner -->
-<section class="hero">
-  <div class="hero-content">
-    <h1>Changbai Mountain Guandonglv International Travel</h1>
-    <p>Licensed & Insured Inbound Tours</p>
-    <div class="hero-buttons">
-      <a href="#tours" class="btn btn-primary">Explore Tours</a>
-      <a href="#contact" class="btn btn-outline">Contact Us</a>
-    </div>
-  </div>
-</section>
-
 <!-- Certifications Section -->
-<section class="certifications" id="certifications">
-  <div class="section-container">
-    <h2 class="section-title">Official & Trusted</h2>
-    <div class="cert-grid">
-      <div class="cert-card">
-        <div class="cert-icon">📜</div>
-        <h3 class="cert-title">Travel Agency License</h3>
-        <p>Official licensed travel agency with government certification #L-Tour-00001234</p>
+<section class="page__content" id="certifications">
+  <div class="grid">
+    <div class="grid__item">
+      <div class="card">
+        <div class="card__header">
+          <h3 class="card__title">Travel Agency License</h3>
+        </div>
+        <div class="card__body">
+          <p>📜 Official licensed travel agency with government certification #L-Tour-00001234</p>
+        </div>
       </div>
-      <div class="cert-card">
-        <div class="cert-icon">🏢</div>
-        
-        <h3 class="cert-title">Business License</h3>
-        <p>Fully registered and compliant with Chinese tourism industry regulations</p>
+    </div>
+    <div class="grid__item">
+      <div class="card">
+        <div class="card__header">
+          <h3 class="card__title">Business License</h3>
+        </div>
+        <div class="card__body">
+          <p>🏢 Fully registered and compliant with Chinese tourism industry regulations</p>
+        </div>
       </div>
-      <div class="cert-card">
-        <div class="cert-icon">🛡️</div>
-        <h3 class="cert-title">Full Insurance Coverage</h3>
-        <p>Comprehensive travel insurance for all guests and tour vehicles</p>
+    </div>
+    <div class="grid__item">
+      <div class="card">
+        <div class="card__header">
+          <h3 class="card__title">Full Insurance Coverage</h3>
+        </div>
+        <div class="card__body">
+          <p>🛡️ Comprehensive travel insurance for all guests and tour vehicles</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Tours Section -->
-<section class="tours" id="tours">
-  <div class="section-container">
-    <h2 class="section-title">Our Popular Tours</h2>
-    <div class="tours-grid">
-      <!-- 1-Day Tour -->
-      <div class="tour-card">
-        <div class="tour-image">
-          <img src="/assets/images/tour-1day.jpg" alt="Changbai Mountain 1-Day Tour" style="width:100%; height:100%; object-fit:cover;">
+<section class="page__content" id="tours">
+  <h2 class="page__title">Our Popular Tours</h2>
+  <div class="grid grid--3col">
+    <!-- 1-Day Tour -->
+    <div class="grid__item">
+      <div class="card">
+        <div class="card__image">
+          <img src="/assets/images/tour-1day.jpg" alt="Changbai Mountain 1-Day Tour">
         </div>
-        <div class="tour-content">
-          <h3 class="tour-title">Changbai Mountain 1-Day Tour</h3>
-          <p class="tour-description">Experience the breathtaking natural beauty of Changbai Mountain in one perfect day trip</p>
-          <ul class="tour-features">
-            <li>Professional English-speaking guide</li>
-            <li>Round-trip transportation from Yanji/Tonghua</li>
-            <li>Entrance fees and mountain shuttle included</li>
-            <li>Traditional Korean lunch provided</li>
+        <div class="card__header">
+          <h3 class="card__title">Changbai Mountain 1-Day Tour</h3>
+        </div>
+        <div class="card__body">
+          <p>Experience the breathtaking natural beauty of Changbai Mountain in one perfect day trip</p>
+          <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>Professional English-speaking guide</li>
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>Round-trip transportation</li>
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>Entrance fees & shuttle included</li>
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>Traditional lunch provided</li>
           </ul>
-          <div class="tour-footer">
-            <span class="tour-price">From $99/person</span>
-            <a href="#contact" class="btn btn-primary">Book Now</a>
-          </div>
+        </div>
+        <div class="card__footer">
+          <span class="price">From $99/person</span>
+          <a href="#contact" class="btn btn--primary btn--small">Book Now</a>
         </div>
       </div>
-      
-      <!-- 2-Day Tour -->
-      <div class="tour-card">
-        <div class="tour-image">
-          <img src="/assets/images/tour-2day.jpg" alt="Changbai Mountain 2-Day Tour" style="width:100%; height:100%; object-fit:cover;">
+    </div>
+    
+    <!-- 2-Day Tour -->
+    <div class="grid__item">
+      <div class="card">
+        <div class="card__image">
+          <img src="/assets/images/tour-2day.jpg" alt="Changbai Mountain 2-Day Tour">
         </div>
-        <div class="tour-content">
-          <h3 class="tour-title">Changbai Mountain 2-Day Tour</h3>
-          <p class="tour-description">Explore all major attractions of Changbai Mountain with overnight stay at mountain foot</p>
-          <ul class="tour-features">
-            <li>Overnight stay at 4-star hotel</li>
-            <li>All meals included during the tour</li>
-            <li>Professional photography guide</li>
-            <li>Private transfer service available</li>
+        <div class="card__header">
+          <h3 class="card__title">Changbai Mountain 2-Day Tour</h3>
+        </div>
+        <div class="card__body">
+          <p>Explore all major attractions of Changbai Mountain with overnight stay at mountain foot</p>
+          <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>Overnight 4-star hotel stay</li>
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>All meals included</li>
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>Professional photography guide</li>
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>Private transfer service</li>
           </ul>
-          <div class="tour-footer">
-            <span class="tour-price">From $199/person</span>
-            <a href="#contact" class="btn btn-primary">Book Now</a>
-          </div>
+        </div>
+        <div class="card__footer">
+          <span class="price">From $199/person</span>
+          <a href="#contact" class="btn btn--primary btn--small">Book Now</a>
         </div>
       </div>
-      
-      <!-- Private Car Service -->
-      <div class="tour-card">
-        <div class="tour-image">
-          <img src="/assets/images/private-car-1.jpg" alt="Private Car Service" style="width:100%; height:100%; object-fit:cover;">
+    </div>
+    
+    <!-- Private Car Service -->
+    <div class="grid__item">
+      <div class="card">
+        <div class="card__image">
+          <img src="/assets/images/private-car-1.jpg" alt="Private Car Service">
         </div>
-        <div class="tour-content">
-          <h3 class="tour-title">Private Car & Custom Tour</h3>
-          <p class="tour-description">Tailor-made travel experience with private vehicle and flexible schedule</p>
-          <ul class="tour-features">
-            <li>24/7 personalized service</li>
-            <li>English/Korean/Japanese speaking drivers</li>
-            <li>All vehicles fully insured and maintained</li>
-            <li>No shopping stops - pure travel time</li>
+        <div class="card__header">
+          <h3 class="card__title">Private Car & Custom Tour</h3>
+        </div>
+        <div class="card__body">
+          <p>Tailor-made travel experience with private vehicle and flexible schedule</p>
+          <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>24/7 personalized service</li>
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>Multi-language drivers</li>
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>Fully insured vehicles</li>
+            <li><span class="fa-li"><i class="fa fa-check"></i></span>No shopping stops</li>
           </ul>
-          <div class="tour-footer">
-            <span class="tour-price">Custom Pricing</span>
-            <a href="#contact" class="btn btn-primary">Get Quote</a>
-          </div>
+        </div>
+        <div class="card__footer">
+          <span class="price">Custom Pricing</span>
+          <a href="#contact" class="btn btn--primary btn--small">Get Quote</a>
         </div>
       </div>
     </div>
@@ -113,39 +131,51 @@ excerpt: Licensed & Insured Inbound Tours to Changbai Mountain
 </section>
 
 <!-- Trust Badges Section -->
-<section class="trust-badges" id="trust">
-  <div class="section-container">
-    <h2 class="section-title">Why Choose Us</h2>
-    <div class="badges-grid">
-      <div class="badge-card">
-        <div class="badge-icon">✅</div>
-        <div class="badge-text">Licensed Travel Agency</div>
+<section class="page__content" id="trust">
+  <h2 class="page__title">Why Choose Us</h2>
+  <div class="grid grid--4col">
+    <div class="grid__item">
+      <div class="text-center">
+        <i class="fa fa-certificate fa-3x text-primary"></i>
+        <h3>Licensed Travel Agency</h3>
+        <p>Official government certification</p>
       </div>
-      <div class="badge-card">
-        <div class="badge-icon">🗣️</div>
-        <div class="badge-text">English-Speaking Guide</div>
+    </div>
+    <div class="grid__item">
+      <div class="text-center">
+        <i class="fa fa-comments fa-3x text-primary"></i>
+        <h3>English-Speaking Guide</h3>
+        <p>Professional communication support</p>
       </div>
-      <div class="badge-card">
-        <div class="badge-icon">🛡️</div>
-        <div class="badge-text">Full Insurance Coverage</div>
+    </div>
+    <div class="grid__item">
+      <div class="text-center">
+        <i class="fa fa-shield fa-3x text-primary"></i>
+        <h3>Full Insurance Coverage</h3>
+        <p>Complete protection for your trip</p>
       </div>
-      <div class="badge-card">
-        <div class="badge-icon">🚗</div>
-        <div class="badge-text">Private Car & No Shopping</div>
+    </div>
+    <div class="grid__item">
+      <div class="text-center">
+        <i class="fa fa-car fa-3x text-primary"></i>
+        <h3>Private Car Service</h3>
+        <p>Flexible travel with no shopping stops</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Contact Section -->
-<section class="contact" id="contact">
-  <div class="section-container">
-    <h2 class="section-title">Contact Us</h2>
-    <ul class="contact-list">
-      <li><i class="fa fa-whatsapp"></i> WhatsApp: +86 138-0000-0000</li>
-      <li><i class="fa fa-weixin"></i> WeChat: changbaishantour</li>
-      <li><i class="fa fa-phone"></i> Phone: +86 138-0000-0000</li>
-      <li><i class="fa fa-envelope"></i> Email: info@changbaishan-tour.space</li>
-    </ul>
+<section class="page__content" id="contact">
+  <h2 class="page__title">Contact Us</h2>
+  <div class="grid">
+    <div class="grid__item">
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fa fa-whatsapp fa-lg"></i></span> WhatsApp: +86 138-0000-0000</li>
+        <li><span class="fa-li"><i class="fa fa-weixin fa-lg"></i></span> WeChat: changbaishantour</li>
+        <li><span class="fa-li"><i class="fa fa-phone fa-lg"></i></span> Phone: +86 138-0000-0000</li>
+        <li><span class="fa-li"><i class="fa fa-envelope fa-lg"></i></span> Email: info@changbaishan-tour.space</li>
+      </ul>
+    </div>
   </div>
 </section>
