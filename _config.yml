@@ -15,6 +15,8 @@ wechat: changbaishantour
 license_number: L-Tour-00001234
 address: No.123, Changbai Mountain Road, Antu County, Yanbian, Jilin, China
 
+theme: minimal-mistakes-jekyll
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
