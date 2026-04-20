@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "buildCommand": "echo 'No build required for static HTML site'",
-  "framework": null,
+  "installCommand": "null",
+  "buildCommand": "null",
+  "framework": "static",
   "outputDirectory": "."
 }
