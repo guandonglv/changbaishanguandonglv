@@ -25,7 +25,7 @@ sass:
   style: compressed
   load_paths:
     - _sass
+  quiet: true
   quiet_deps: true
   verbose: false
   sourcemap: never
-  deprecation_warnings: false
