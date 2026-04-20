@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: 長白山関東ラック国際旅行会社
 excerpt: 許可済み・保険加入済みインバウンドツアー
 lang: ja

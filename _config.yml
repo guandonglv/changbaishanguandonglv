@@ -3,7 +3,7 @@ name: Changbai Mountain Guandonglv International Travel
 description: Licensed & Insured Inbound Tours to Changbai Mountain
 url: "https://www.changbaishan-tour.space"
 baseurl: ""
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+theme: minimal-mistakes-jekyll
 
 # Multilingual support
 languages:
@@ -16,3 +16,4 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: 장백산 관동랙 국제여행사
 excerpt: 합법 및 보험 가입 입장 여행
 lang: ko
