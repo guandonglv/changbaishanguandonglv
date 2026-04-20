@@ -52,3 +52,4 @@ sass:
   verbose: false
   sourcemap: never
   deprecation_warnings: false
+  quiet_deps: true
