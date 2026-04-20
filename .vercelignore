@@ -1,0 +1,13 @@
+# Ignore all Jekyll/Sass build artifacts
+*.md
+!index.html
+!README.md
+_sass/
+assets/
+_includes/
+_pages/
+_config.yml
+_config.sass.yml
+.ruby-version
+Gemfile
+Gemfile.lock
