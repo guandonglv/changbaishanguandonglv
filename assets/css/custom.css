@@ -1,0 +1,38 @@
+.language-selector {
+  position: relative;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.language-selector-button {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.language-selector-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.language-selector-dropdown a {
+  color: #333;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.language-selector-dropdown a:hover {
+  background-color: #f1f1f1;
+}
+
+.language-selector:hover .language-selector-dropdown {
+  display: block;
+}

@@ -1,27 +1,56 @@
 ---
-title: 首页
-layout: single
+layout: home
+title: Changbai Mountain Guandonglv International Travel
+excerpt: Licensed & Insured Inbound Tours to Changbai Mountain
+lang: en
 permalink: /
 ---
 
-# 长白山保护开发区关东驴国际旅行社有限公司
+<!-- Hero Banner -->
+<section class="hero" style="background: url('/assets/images/hero-tianchi-banner.jpg') center/cover no-repeat;">
+  <div class="hero-content">
+    <h1>Changbai Mountain Guandonglv International Travel</h1>
+    <p>Licensed & Insured Inbound Tours</p>
+    <div class="hero-buttons">
+      <a href="#tours" class="btn btn-primary">Explore Tours</a>
+      <a href="#contact" class="btn btn-outline">Contact Us</a>
+    </div>
+  </div>
+</section>
 
-> 专业入境游服务商，为境外游客提供长白山深度旅游定制服务
+<!-- Tours Section -->
+<section id="tours" class="section">
+  <div class="section-container">
+    <h2 class="section-title">Our Popular Tours</h2>
+    <div class="tours-grid">
+      <!-- 1-Day Tour -->
+      <div class="tour-card">
+        <h3 class="tour-title">Changbai Mountain 1-Day Tour</h3>
+        <p>Perfect day trip to experience the natural beauty of Changbai Mountain</p>
+        <ul class="tour-features">
+          <li>Professional English/Korean/Japanese speaking guide</li>
+          <li>Round-trip transportation from Yanji/Tonghua</li>
+          <li>Entrance fees and mountain shuttle</li>
+          <li>Lunch included</li>
+        </ul>
+        <div class="tour-footer">
+          <span class="tour-price">From $99/person</span>
+          <a href="#contact" class="btn btn-primary">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-## 我们的入境游优势
-✅ 深耕长白山旅游市场10年，熟悉境外游客需求
-✅ 持有正规《旅行社经营入境旅游业务许可证》
-✅ 持证外籍导游/多语种导游服务（英、韩、日）
-✅ 全程合规运营，保障游客合法权益
-✅ 可定制专属入境游行程
-
-## 热门入境游产品
-- [长白山经典入境游2日游](/products/#长白山经典入境游2日游)
-- [朝鲜族民俗深度3日游](/products/#朝鲜族民俗深度3日游)
-- [长白山冬季冰雪度假4日游](/products/#长白山冬季冰雪度假4日游)
-
-## 联系我们
-📞 24小时客服热线：+86-138-XXXX-XXXX
-📧 国际邮箱：info@guandonglv-travel.com
-🌐 多语言支持：英文/韩文/日文
-📍 办公地址：长白山保护开发区池北区XX路XX号
+<!-- Contact Section -->
+<section id="contact" class="section">
+  <div class="section-container">
+    <h2 class="section-title">Contact Us</h2>
+    <ul class="contact-list">
+      <li><i class="fa fa-whatsapp"></i> WhatsApp: +86 138-0000-0000</li>
+      <li><i class="fa fa-weixin"></i> WeChat: changbaishantour</li>
+      <li><i class="fa fa-phone"></i> Phone: +86 138-0000-0000</li>
+      <li><i class="fa fa-envelope"></i> Email: info@changbaishan-tour.space</li>
+    </ul>
+  </div>
+</section>
