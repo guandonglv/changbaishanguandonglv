@@ -4,9 +4,13 @@
   "description": "Professional English travel website for Changbai Mountain Guandonglv International Travel",
   "scripts": {
     "dev": "python -m http.server 55734",
-    "start": "python -m http.server 55734"
+    "start": "python -m http.server 55734",
+    "build": "sass _sass/custom.scss assets/css/style.css --quiet-deps"
   },
   "keywords": ["travel", "changbaishan", "tourism", "website"],
   "author": "Changbai Mountain Guandonglv International Travel",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
 }

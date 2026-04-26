@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  {% if page.css %}
+  <link rel="stylesheet" href="{{ page.css }}">
+  {% endif %}
+</head>
+<body>
+  {{ content }}
+  {% if page.js %}
+  <script src="{{ page.js }}"></script>
+  {% endif %}
+</body>
+</html>
